@@ -10,3 +10,5 @@ C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSys
 C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.xml
 C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.pdb
 C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.frmMain.resources
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.frmStudent.resources
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.frmCourse.resources
