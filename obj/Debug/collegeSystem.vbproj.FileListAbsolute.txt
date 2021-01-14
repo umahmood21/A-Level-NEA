@@ -1,0 +1,12 @@
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\bin\Debug\collegeSystem.exe.config
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\bin\Debug\collegeSystem.exe
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\bin\Debug\collegeSystem.pdb
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\bin\Debug\collegeSystem.xml
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.vbprojAssemblyReference.cache
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.Resources.resources
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.vbproj.GenerateResource.cache
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.vbproj.CoreCompileInputs.cache
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.exe
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.xml
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.pdb
+C:\Users\Usman Mahmood\Desktop\College System\collegeSystem\obj\Debug\collegeSystem.frmMain.resources
