@@ -36,7 +36,13 @@ Partial Class frmStudent
         Me.txtSurname = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.txtSearchID = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -82,7 +88,7 @@ Partial Class frmStudent
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(27, 32)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(489, 270)
+        Me.Panel1.Size = New System.Drawing.Size(354, 270)
         Me.Panel1.TabIndex = 4
         '
         'butSave
@@ -161,23 +167,71 @@ Partial Class frmStudent
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(19, 63)
+        Me.Label3.Location = New System.Drawing.Point(19, 59)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(52, 13)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Surname:"
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.Button3)
+        Me.Panel2.Controls.Add(Me.Button2)
+        Me.Panel2.Controls.Add(Me.txtSearchID)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Location = New System.Drawing.Point(431, 32)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(337, 122)
+        Me.Panel2.TabIndex = 5
+        '
+        'txtSearchID
+        '
+        Me.txtSearchID.Location = New System.Drawing.Point(85, 23)
+        Me.txtSearchID.Name = "txtSearchID"
+        Me.txtSearchID.Size = New System.Drawing.Size(100, 20)
+        Me.txtSearchID.TabIndex = 1
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(18, 23)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(61, 13)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Student ID:"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(243, 21)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Clear"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(243, 49)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 3
+        Me.Button3.Text = "Search"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'frmStudent
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "frmStudent"
         Me.Text = "frmStudent"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -195,4 +249,9 @@ Partial Class frmStudent
     Friend WithEvents butSave As Button
     Friend WithEvents butNew As Button
     Friend WithEvents DatDOB As DateTimePicker
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents txtSearchID As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
 End Class

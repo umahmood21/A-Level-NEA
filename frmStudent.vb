@@ -31,11 +31,35 @@ Public Class frmStudent
                     sql.CommandText = "Select @@Identity"
                     CurrentStudentID = sql.ExecuteScalar
                     lblStudentID.Text = CurrentStudentID
+                Else
+                    'If the current student id isn't = to -1 this means that they're attempting to edit an existing user.
+                    sql.Connection = cn
+                    sql.CommandText = "Update Student " & "Set Surname = @Surname, " & "FirstNames = @FirstNames, " & "DateOfBirth = @DateOfBirth, " & "PostCode = @PostCode " &
+                        "Where StudentID = @CurrentStudentID"
+                    sql.Parameters.AddWithValue("@Surname", txtSurname.Text)
+                    sql.Parameters.AddWithValue("@FirstNames", txtFirstName.Text)
+                    sql.Parameters.AddWithValue("@DateOfBirth", DatDOB.Value)
+                    sql.Parameters.AddWithValue("@PostCode", txtPostCode.Text)
+                    sql.Parameters.AddWithValue("@CurrentStudentID", CurrentStudentID)
+                    sql.ExecuteNonQuery()
                 End If
+                cn.Close()
             End If
         Else
             MessageBox.Show("Please make sure all fields are filled before continuing.")
         End If
 
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        form_switch(3)
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If IsNumeric(txtSearchID.Text) Then
+            DisplayStudent(txtSearchID.Text)
+        Else
+            MessageBox.Show("Numerical value not detected, try again.")
+        End If
     End Sub
 End Class
