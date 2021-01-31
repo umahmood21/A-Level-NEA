@@ -1,4 +1,4 @@
-# A-Level-NEA
+# A-Level-Practice
 Non-exam assessment project practice for Eduqas A level computer science.
 
 ### Aims
